@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Set X Drive]
+@="Set &X Drive"
+"Icon"="%SystemRoot%\\system32\\SHELL32.dll,9"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Set X Drive\command]
+@="\"WScript\" \"C:\\Utilities\\SetXDrive.vbs\" \"%1\""
